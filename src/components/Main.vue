@@ -4,24 +4,28 @@
       <div class="container-fluid w-75 pt-4 pb-4">
         <div class="d-flex flex-row">
           <h2 class="text-left text-uppercase">14-15 февраля</h2>
-          <h2 class="text-right text-uppercase ml-auto">1 100 000 рублей</h2>
+          <h2 class="text-right text-uppercase ml-auto">175 000 рублей</h2>
         </div>
         <div class="banner">
           <img src="../assets/banner_logo.png" alt="Banner logo" class="w-75 m-auto">
           <h2 class="ml-auto text-right text-uppercase">2020</h2>
         </div>
-        <router-link to="/task" class="btn btn-lg btn-outline-primary text-uppercase">Подать заявку</router-link>
-        <router-link to="/startup" class="btn btn-lg btn-outline-primary text-uppercase">Предложить готовое решение</router-link>
+        <router-link to="/team" class="btn btn-lg btn-outline-primary text-uppercase mt-2">Подать заявку</router-link>
+        <router-link to="/startup" class="btn btn-lg btn-outline-primary text-uppercase mt-2">Предложить готовое решение</router-link>
       </div>
     </section>
     <section class="container-fluid bg-dark text-white pt-4" id="about">
       <div class="container-fluid w-75">
         <div class="d-flex flex-row">
-          <h2 class="text-left text-lg">Что такое?</h2>
+          <h2 class="text-left text-lg">Что такое HACK ML?</h2>
           <h2 class="mt-auto mb-auto text-right ml-auto text-primary">01</h2>
         </div>
-        <div class="text-justify w-50 mt-5 pb-5">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero excepturi repellendus porro praesentium voluptatem. Quisquam necessitatibus possimus nihil molestias molestiae iste nobis fugit, aspernatur, nesciunt asperiores quas a, cupiditate vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ducimus repellat quisquam vel cupiditate odit dicta, temporibus perferendis, atque, accusantium eum modi ipsam velit animi illo error vitae consequuntur. Quae.
+        <div class="text-left text-container mt-5 pb-5">
+          <ul>
+            <li>Уникальный всероссийский Хакатон в направлении машинного обучения</li>
+            <li>Организатор хакатона, Университет ИТМО, и партнеры предлагают десять разных задач, связанных с машинным обучением</li>
+            <li>Вместе мы хотим найти нестандартные технологические решения, познакомиться с новыми командами на этом рынке и за 48 часов разработать передовые инновационные технологии в области машинного обучения</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -31,27 +35,24 @@
           <h2 class="mt-auto mb-auto text-left text-primary">02</h2>
           <h2 class="text-right ml-auto text-lg">Формат</h2>
         </div>
-        <div class="text-justify w-50 mt-5 pb-5">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero excepturi repellendus porro praesentium voluptatem. Quisquam necessitatibus possimus nihil molestias molestiae iste nobis fugit, aspernatur, nesciunt asperiores quas a, cupiditate vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ducimus repellat quisquam vel cupiditate odit dicta, temporibus perferendis, atque, accusantium eum modi ipsam velit animi illo error vitae consequuntur. Quae.
-        </div>
-        <div class="m-auto d-flex flex-row w-75 pt-5 pb-5">
-          <div class="d-flex flex-column w-50">
-            <h2 class="text-center">Готовая команда</h2>
+        <div class="m-auto card-container card-deck w-75 pt-5 pb-5">
+          <div class="d-flex flex-column text-container mt-2">
+            <h2 class="text-center text-primary">Хакатон</h2>
             <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0" footer-border-variant="white">
-              <b-card-text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem id iste molestiae, ipsa autem labore, ab odit nulla rem nihil saepe esse dolores hic harum. Quas possimus, id fugit accusamus!</b-card-text>
+              <b-card-text>Если вы разработчик, дизайнер или продакт-менеджер, то вы можете объединиться в команду, за 48 часов предложить решение одной из задач и выиграть <span class="text-primary font-weight-bold">100 000 рублей</span>. Подать заявку может независимый участник или готовая команда.</b-card-text>
               <template v-slot:footer>
-                <router-link to="/" class="text-white block-link text-center">
+                <router-link to="/team" class="text-white block-link text-center">
                   <div class="block-link">Подать заявку на хакатон</div>
                 </router-link>
               </template>
             </b-card>
           </div>
-          <div class="d-flex flex-column w-50 ml-4">
-            <h2 class="text-center">Готовое решение</h2>
+          <div class="d-flex flex-column text-container mt-2">
+            <h2 class="text-center text-primary">Готовое решение</h2>
             <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0" footer-border-variant="white">
-              <b-card-text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem id iste molestiae, ipsa autem labore, ab odit nulla rem nihil saepe esse dolores hic harum. Quas possimus, id fugit accusamus!</b-card-text>
+              <b-card-text>Если вы стартап или зрелая компания и у вас есть готовое решение для одной задачи, то вы можете заявить о себе, пройти отбор и представить свое решение партнеру в рамках питч‑сессии готовых решений.</b-card-text>
               <template v-slot:footer>
-                <router-link to="/" class="text-white block-link text-center">
+                <router-link to="/startup" class="text-white block-link text-center">
                   <div class="block-link">Подать заявку на хакатон</div>
                 </router-link>
               </template>
@@ -62,21 +63,37 @@
     </section>
     <section class="container-fluid bg-dark text-white pt-4" id="tasks">
       <div class="container-fluid w-75">
-        <div class="d-flex flex-row">
+        <div class="d-flex flex-row pb-5">
           <h2 class="text-left text-lg">Задания</h2>
           <h2 class="mt-auto mb-auto text-right ml-auto text-primary">03</h2>
         </div>
-        <b-card-group deck class="mt-5 mb-5">
-          <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0" footer-border-variant="white">
-            <b-card-text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem id iste molestiae, ipsa autem labore, ab odit nulla rem nihil saepe esse dolores hic harum. Quas possimus, id fugit accusamus!</b-card-text>
+        <b-card-group deck>
+          <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0 mt-4" footer-border-variant="white">
+            <b-card-text>
+              <h3 class="text-primary">Обработка голоса</h3>
+              <ul class="list-unstyled">
+                <li>Исправление акцента. Добавить британский
+                  акцент, убрать индийский акцент</li>
+                <li>Изменение голоса на голос другого
+                  человека/селебрити</li>
+                <li>Создать более уверенный голос. Убрать из
+                  речи слова-паразиты, изменить тональность
+                  голоса</li>
+              </ul>
+            </b-card-text>
             <template v-slot:footer>
               <router-link to="/task" class="text-white block-link text-center">
                 <div class="block-link">Узнать подробнее</div>
               </router-link>
             </template>
           </b-card>
-          <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0" footer-border-variant="white">
-            <b-card-text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem id iste molestiae, ipsa autem labore, ab odit nulla rem nihil saepe esse dolores hic harum. Quas possimus, id fugit accusamus!</b-card-text>
+          <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0 mt-4" footer-border-variant="white">
+            <b-card-text>
+              <h3 class="text-primary">Sing like Pro</h3>
+              Дотягивать концовки за пользователем. Накладывать ритм.
+              Объединить со вторым профессиональным голосом и
+              профессиональной аранжировкой
+            </b-card-text>
             <template v-slot:footer>
               <router-link to="/task" class="text-white block-link text-center">
                 <div class="block-link">Узнать подробнее</div>
@@ -84,17 +101,33 @@
             </template>
           </b-card>
         </b-card-group>
-        <b-card-group class="mt-4" deck>
-          <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0" footer-border-variant="white">
-            <b-card-text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem id iste molestiae, ipsa autem labore, ab odit nulla rem nihil saepe esse dolores hic harum. Quas possimus, id fugit accusamus!</b-card-text>
+        <b-card-group deck>
+          <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0 mt-4" footer-border-variant="white">
+            <b-card-text>
+              <h3 class="text-primary">Создать фото по заданной теме</h3>
+              Создать non-copyrighted фото по заданной теме
+              (“счастливая пара на пляже с пальмами”)
+            </b-card-text>
             <template v-slot:footer>
               <router-link to="/task" class="text-white block-link text-center">
                 <div class="block-link">Узнать подробнее</div>
               </router-link>
             </template>
           </b-card>
-          <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0" footer-border-variant="white">
-            <b-card-text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem id iste molestiae, ipsa autem labore, ab odit nulla rem nihil saepe esse dolores hic harum. Quas possimus, id fugit accusamus!</b-card-text>
+          <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0 mt-4" footer-border-variant="white">
+            <b-card-text>
+              <h3 class="text-primary">Traffic optimization</h3>
+              Оптимизация трафика видео-контента.
+              Способы сжатия видео с ML
+              <br />
+              <br />
+              <ul class="list-unstyled">
+                <li>Увеличить FPS. Видео/контент передается с меньшим
+                  количеством FPS, когда мы его получаем, FPS синтетически
+                  повышается</li>
+                <li>Использование сжатого представления нейронных сетей</li>
+              </ul>
+            </b-card-text>
             <template v-slot:footer>
               <router-link to="/task" class="text-white block-link text-center">
                 <div class="block-link">Узнать подробнее</div>
@@ -102,16 +135,75 @@
             </template>
           </b-card>
         </b-card-group>
+        <b-card-group deck>
+          <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0 mt-4" footer-border-variant="white">
+            <b-card-text>
+              <h3 class="text-primary">TikTok for...</h3>
+              <ul class="list-unstyled">
+                <li>Dating
+                  <ul>
+                    <li>Пользователи создают различный контент (ответы на вопросы,
+                      вайны/показывают свою жизнь);</li>
+                    <li>Приложение использует UX как в TikTok для подбора рекомендации
+                      в знакомствах;</li>
+                  </ul>
+                </li>
+                <li>News
+                  <ul>
+                    <li>Инфлюенсеры создают контент в виде новостей, демократизируя
+                      новостное пространство;</li>
+                  </ul>
+                </li>
+                <li>Sport
+                  <ul>
+                    <li>Пользователи создают контент (высказывают мнение относительно
+                      спортивных событий, создают интересные нарезки с матчей/игр)</li>
+                  </ul>
+                </li>
+              </ul>
+            </b-card-text>
+            <template v-slot:footer>
+              <router-link to="/task" class="text-white block-link text-center">
+                <div class="block-link">Узнать подробнее</div>
+              </router-link>
+            </template>
+          </b-card>
+          <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0 mt-4" footer-border-variant="white">
+            <b-card-text>
+              <h3 class="text-primary">Калькулятор калорий</h3>
+              Подсчитать, сколько калорий в еде с помощью
+              картинки
+            </b-card-text>
+            <template v-slot:footer>
+              <router-link to="/task" class="text-white block-link text-center">
+                <div class="block-link">Узнать подробнее</div>
+              </router-link>
+            </template>
+          </b-card>
+        </b-card-group>
+        <div class="d-flex flex-row m-auto justify-content-center">
+          <b-card bg-variant="dark" text-variant="white" class="text-container text-left border-0 rounded-0 mt-4" footer-border-variant="white">
+            <b-card-text>
+              <h3 class="text-primary">Lie detector</h3>
+              Определить по голосу человека, врёт он или нет
+            </b-card-text>
+            <template v-slot:footer>
+              <router-link to="/task" class="text-white block-link text-center">
+                <div class="block-link">Узнать подробнее</div>
+              </router-link>
+            </template>
+          </b-card>
+        </div>
       </div>
     </section>
     <section class="container-fluid bg-dark text-white pt-5 pb-5" id="prize">
       <div class="container-fluid w-75">
         <div class="d-flex flex-row">
           <h2 class="m-auto text-uppercase">Призовой фонд</h2>
-          <h2 class="m-auto text-lg text-primary font-weight-bold">1 100 000 ₽</h2>
+          <h2 class="m-auto text-lg text-primary font-weight-bold">175 000 ₽</h2>
         </div>
         <div class="text-center m-auto w-75">
-          Команда, которая за 30 часов создаст лучшее решение по конкретной задаче, получит 100 000 рублей (net). Среди финалистов определят и супер-победителя. Он выиграет дополнительно 100 000 рублей (net) и 500 кредитов на пользование Amazon Web Services.
+          Команда, которая за 48 часов создаст лучшее решение по конкретной задаче, получит 100 000 рублей.
         </div>
         <b-button size="lg" variant="outline-primary" class="text-uppercase mt-4">Подать заявку</b-button>
       </div>
@@ -124,55 +216,67 @@
         </div>
         <div class="w-100 mt-5 mt-5 mb-5">
           <div class="timing d-flex flex-column">
-            <div class="d-flex flex-row ml-5 mr-5 pl-5 pr-5">
-              <div class="timing__stage d-flex flex-column text-left pl-2 mr-5">
+            <div class="d-flex flex-row m-auto">
+              <div class="timing__stage d-flex flex-column text-left pl-2 pr-5 m-auto">
                 <h5 class="text-uppercase">
-                  14 февраля 2020
+                  15 февраля 2020
                 </h5>
                 <span>Старт приёма заявок</span>
               </div>
-              <div class="timing__stage m-auto d-flex flex-column text-left pl-2">
+              <div class="timing__stage m-auto d-flex flex-column text-left pl-2 pr-5">
                 <h5 class="text-uppercase">
-                  23 февраля 2020
+                  21-29 февраля 2020
                 </h5>
-                <span>Объявление участников</span>
+                <span>Онлайн-тестирование участников</span>
               </div>
-              <div class="timing__stage ml-auto d-flex flex-column text-left pl-2">
+              <div class="timing__stage m-auto d-flex flex-column text-left pl-2 pr-5">
                 <h5 class="text-uppercase">
-                  03-04 марта 2020
+                  15 марта -<br /> 1 июня 2020
                 </h5>
-                <span>Проведение хакатона</span>
+                <span>Акселлерация</span>
               </div>
             </div>
             <div class="timing__line">
-              <div class="timing__line-progress" style="width: 10%"></div>
+              <div class="timing__line-progress" style="width: 7.5%"></div>
             </div>
             <div class="d-flex flex-row m-auto">
-              <div class="timing__stage mr-5 d-flex flex-column justify-content-end text-left pl-2">
+              <div class="timing__stage m-auto ml-5 d-flex flex-column justify-content-end text-left pl-2 pr-2">
                 <h5 class="text-uppercase">
-                  21 февраля 2020
+                  20 февраля 2020
                 </h5>
                 <span>Окончание приёма заявок</span>
+              </div>
+              <div class="timing__stage m-auto d-flex flex-column justify-content-end text-left pl-2 pr-2">
+                <h5 class="text-uppercase">
+                  1 марта 2020
+                </h5>
+                <span>Результаты отбора</span>
+              </div>
+              <div class="timing__stage m-auto d-flex flex-column justify-content-end text-left pl-2 pr-2">
+                <h5 class="text-uppercase">
+                  13-15 марта 2020
+                </h5>
+                <span>Проведение хакатона</span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="container-fluid bg-dark text-white pt-4" id="jury">
+    <section class="container-fluid bg-dark text-white pt-4 pb-5" id="jury">
       <div class="container-fluid w-75">
         <div class="d-flex flex-row">
           <h2 class="mt-auto mb-auto text-left text-primary">06</h2>
           <h2 class="text-right ml-auto text-lg">Жюри</h2>
         </div>
         <div class="container-fluid">
-          <div class="d-flex flex-row justify-space-between mt-5 pb-5">
+          <div class="d-flex card-container justify-space-between mt-5">
             <div class="d-flex flex-column">
               <div class="jury__member">
                 <img src="https://placekitten.com/250/250" alt="Jury" class="rounded-circle">
                 <div class="mt-3">
-                  <h4 class="text-uppercase">Mr. Kitten</h4>
-                  <span>Genius kitten jurist</span>
+                  <h4 class="text-uppercase">Григорий Фридман</h4>
+                  <span>Профессор Санкт-Петербургский государственный экономический университет, д.т.н., <br>стаж преподавания 21 год</span>
                 </div>
               </div>
             </div>
@@ -180,8 +284,8 @@
               <div class="jury__member">
                 <img src="https://placekitten.com/250/250" alt="Jury" class="rounded-circle">
                 <div class="mt-3">
-                  <h4 class="text-uppercase">Mr. Kitten</h4>
-                  <span>Genius kitten jurist</span>
+                  <h4 class="text-uppercase">Александр Авдюшенко</h4>
+                  <span>Teacher at SPB <a href="https://compscicenter.ru/teachers/2607/">Computer Science Center</a>.</span>
                 </div>
               </div>
             </div>
@@ -189,8 +293,8 @@
               <div class="jury__member">
                 <img src="https://placekitten.com/250/250" alt="Jury" class="rounded-circle">
                 <div class="mt-3">
-                  <h4 class="text-uppercase">Mr. Kitten</h4>
-                  <span>Genius kitten jurist</span>
+                  <h4 class="text-uppercase">Александр Давыденко</h4>
+                  <span>Старший преподаватель кафедры космических технологий и <br>прикладной астродинамики в СПбГУ </span>
                 </div>
               </div>
             </div>
@@ -198,51 +302,124 @@
               <div class="jury__member">
                 <img src="https://placekitten.com/250/250" alt="Jury" class="rounded-circle">
                 <div class="mt-3">
-                  <h4 class="text-uppercase">Mr. Kitten</h4>
-                  <span>Genius kitten jurist</span>
+                  <h4 class="text-uppercase">Arseniy Seroka</h4>
+                  <span>Chief Executive Officer, Co‑Founder of Serokell Labs</span>
                 </div>
               </div>
             </div>
           </div>
+          <div class="d-flex card-container justify-space-between mt-5">
+            <div class="d-flex flex-column m-auto">
+              <div class="jury__member">
+                <img src="https://placekitten.com/250/250" alt="Jury" class="rounded-circle">
+                <div class="mt-3">
+                  <h4 class="text-uppercase">Grigory Tkachenko</h4>
+                  <span>VP of Engineering & Co-Founder - AI Factory</span>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-column m-auto">
+              <div class="jury__member">
+                <img src="https://placekitten.com/250/250" alt="Jury" class="rounded-circle">
+                <div class="mt-3">
+                  <h4 class="text-uppercase">Mike Mirzayanov</h4>
+                  <span>CEO - Codeforces</span>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-column m-auto">
+              <div class="jury__member">
+                <img src="https://placekitten.com/250/250" alt="Jury" class="rounded-circle">
+                <div class="mt-3">
+                  <h4 class="text-uppercase">Даня Гальпер</h4>
+                  <span>Founder and CEO of Grow Food</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid bg-dark text-white pt-4" id="program">
+      <div class="container-fluid w-75">
+        <div class="d-flex flex-row">
+          <h2 class="text-lg text-left">Программа</h2>
+          <h2 class="mt-auto mb-auto ml-auto text-right text-primary">07</h2>
+        </div>
+        <div class="d-flex card-container justify-content-start">
+          <div class="d-flex flex-column mb-auto text-container bg-dark text-left">
+            <ul class="list-group w-75 m-auto pt-4 pb-4 rounded-0">
+              <h2 class="ml-auto text-primary font-weight-bold">13/03/2020</h2>
+              <li class="list-group-item bg-dark text-white border border-white rounded-0"><span class="badge badge-primary p-2 mr-2">15:00</span>Сбор и регистрация участников</li>
+              <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">17:00</span>Старт хакатона</li>
+              <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">18:00</span>Мастер-класс “генерация идей”</li>
+              <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">20:00</span>Самое время покушать</li>
+            </ul>
+          </div>
+          <div class="d-flex flex-column text-container bg-dark text-left">
+            <ul class="list-group w-75 m-auto pt-4 pb-4 rounded-0">
+              <h2 class="ml-auto text-primary font-weight-bold">14/03/2020</h2>
+              <li class="list-group-item bg-dark text-white border border-white rounded-0"><span class="badge badge-primary p-2 mr-2">01:00-02:00</span>Ночной перекус</li>
+              <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">05:00-06:00</span>Кофебрейк</li>
+              <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">09:00-10:00</span>Завтрак</li>
+              <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">10:00-13:00</span>Консультации с экспертами</li>
+              <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">14:00-15:00</span>Crash-тест идей</li>
+              <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">15:00-17:00</span>Консультации с экспертами</li>
+              <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">18:00-19:00</span>Встреча с успешным проектом</li>
+              <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">20:00-21:00</span>Ужин</li>
+              <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">21:00-23:00</span>Тематические мастер-классы</li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex flex-column text-container bg-dark text-left">
+          <ul class="list-group w-75 m-auto pt-4 pb-4 rounded-0">
+            <h2 class="ml-auto text-primary font-weight-bold">15/03/2020</h2>
+            <li class="list-group-item bg-dark text-white border border-white rounded-0"><span class="badge badge-primary p-2 mr-2">01:00-02:00</span>Ночной перекус</li>
+            <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">05:00-06:00</span>Кофебрейк</li>
+            <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">09:00-10:00</span>Завтрак</li>
+            <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">10:00-11:00</span>Мастер-класс по презентациям</li>
+            <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">12:00-13:00</span>Обедик</li>
+            <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">13:00-14:00</span>Репетиция выступлений</li>
+            <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">14:00-15:00</span>Кофебрейк</li>
+            <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">15:00-16:00</span>Окончание хакатона</li>
+            <li class="list-group-item bg-dark text-white border border-white rounded-0 mt-2"><span class="badge badge-primary p-2 mr-2">16:00-17:00</span>Презентация результатов</li>
+          </ul>
         </div>
       </div>
     </section>
     <section class="container-fluid bg-dark text-white pt-4" id="place">
       <div class="container-fluid w-75">
         <div class="d-flex flex-row">
-          <div class="d-flex flex-column">
-            <h2 class="text-lg text-left">Место</h2>
+          <h2 class="mt-auto mb-auto text-primary">08</h2>
+          <div class="d-flex flex-column ml-auto">
+            <h2 class="text-lg text-right">Место</h2>
             <h3 class="text-uppercase text-right mt-2">Университет ИТМО</h3>
-            <p class="text-right">Адрес: Кронверкский, 49</p>
+            <p class="text-right">Адрес: Биржевая линия, 16</p>
           </div>
-          <h2 class="mt-auto mb-auto ml-auto text-right text-primary">08</h2>
         </div>
-        <div class="w-50 ml-auto mt-4 pb-5">
-          <iframe class="rounded-circle" width="600" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=59.9573,30.3084&amp;q=%D0%A1%D0%9F%D0%B1%2C%20%D0%9A%D1%80%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BF%D1%80.%2C%2049+(%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%20%D0%98%D0%A2%D0%9C%D0%9E)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <div class="map-container mt-4 pb-5">
+          <iframe class="rounded-circle iframe" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=59.94462565,30.29476610798419&amp;q=%D0%91%D0%B8%D1%80%D0%B6%D0%B5%D0%B2%D0%B0%D1%8F%20%D0%BB%D0%B8%D0%BD%D0%B8%D1%8F%2C%2016+(%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%20%D0%98%D0%A2%D0%9C%D0%9E)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
       </div>
     </section>
     <section class="container-fluid bg-dark text-white pt-4 pb-4" id="partners">
       <div class="container-fluid w-75">
         <div class="d-flex flex-row">
-          <h2 class="mt-auto mb-auto text-left text-primary">09</h2>
-          <h2 class="text-right ml-auto text-lg">Патрнёры</h2>
+          <h2 class="text-right text-lg">Патрнёры</h2>
+          <h2 class="mt-auto mb-auto ml-auto text-right text-primary">09</h2>
         </div>
-        <div class="d-flex flex-row mt-5 pb-4">
-          <div class="d-flex flex-column m-auto">
-            <img src="https://placekitten.com/300/200" alt="" class="m-auto">
-            <h2 class="text-uppercase pt-2">Kitten partner</h2>
-            <span>Kitten desc</span>
+        <div class="d-flex card-container mt-5 pb-4">
+          <div class="d-flex flex-column partner m-auto">
+            <img src="../assets/itmo.png" alt="" class="m-auto">
+            <h3 class="pt-2">Университет ИТМО</h3>
           </div>
-          <div class="d-flex flex-column m-auto">
-            <img src="https://placekitten.com/300/200" alt="" class="m-auto">
-            <h2 class="text-uppercase pt-2">Kitten partner</h2>
-            <span>Kitten desc</span>
+          <div class="d-flex flex-column partner  m-auto">
+            <img src="../assets/botan.jpg" alt="" class="m-auto">
+            <h3 class="pt-2">Ботан Инвестор</h3>
           </div>
-          <div class="d-flex flex-column m-auto">
-            <img src="https://placekitten.com/300/200" alt="" class="m-auto">
-            <h2 class="text-uppercase pt-2">Kitten partner</h2>
-            <span>Kitten desc</span>
+          <div class="d-flex flex-column partner  m-auto">
+            <img src="../assets/dg.png" alt="" class="m-auto">
+            <h3 class="pt-2">Digital Generation</h3>
           </div>
         </div>
       </div>
@@ -312,6 +489,147 @@ export default {
 .timing__stage {
   border-left: 5px solid #007bff;
   height: 150px;
+}
+
+.text-container,
+.map-container {
+  width: 50%;
+}
+
+.map-container {
+  margin-left: auto;
+}
+
+.map-container .iframe {
+  width: 600px;
+  height: 600px;
+}
+
+.card-container {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.partner img {
+  max-width: 300px;
+}
+
+.badge {
+  font-size: 1rem;
+  padding: 0.25rem 0.75rem;
+}
+
+@media screen and (max-width: 1281px) {
+  .map-container {
+    width: 100%;
+  }
+
+  .map-container {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+
+  .text-container,
+  .map-container {
+    width: 100%;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card-deck {
+    flex-flow: column wrap !important;
+  }
+
+  .text-lg {
+    font-size: 60px;
+  }
+
+  .jury__member {
+    margin-top: 1rem;
+  }
+
+  .map-container .iframe {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  h5 {
+    font-size: 1rem;
+  }
+
+  .timing__stage span {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .map-container .iframe {
+    width: 300px;
+    height: 300px;
+  }
+
+  .text-lg {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .map-container .iframe {
+    width: 200px;
+    height: 200px;
+  }
+
+  .text-lg {
+    font-size: 30px;
+  }
+
+  .jury__member img {
+    width: 150px;
+    height: 150px;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 0.75rem;
+  }
+
+  .timing__stage span {
+    font-size: 0.5rem;
+  }
+
+  .partner img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .partner {
+    margin-top: 0.75rem !important;
+  }
+
+  .partner h2 {
+    font-size: 1.25rem;
+  }
 }
 
 </style>

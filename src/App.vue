@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <b-navbar class="header border-bottom border-secondary" toggleable="lg" type="dark" variant="dark" sticky="true">
+    <b-navbar class="header border-bottom border-secondary" toggleable="lg" type="dark" variant="dark" sticky>
       <div class="container-fluid w-75">
         <b-navbar-brand>
           <router-link to="/">
@@ -15,6 +15,7 @@
             <b-nav-item href="/#prize">Призовой фонд</b-nav-item>
             <b-nav-item href="/#timing">Тайминг</b-nav-item>
             <b-nav-item href="/#jury">Жюри</b-nav-item>
+            <b-nav-item href="/#program">Программа</b-nav-item>
             <b-nav-item href="/#place">Место</b-nav-item>
             <b-nav-item href="/#partners">Партнёры</b-nav-item>
           </b-navbar-nav>
@@ -30,10 +31,10 @@
             <li>Телеграм-чат: <a href="tg://" class="text-primary">@mlhack</a></li>
             <li><a href="#" class="text-primary">Положение об участии в хакатоне</a></li>
           </ul>
-          <div class="d-flex flex-row ml-auto mt-auto mb-auto">
+          <div class="d-flex card-container ml-auto mt-auto mb-auto">
             <img src="" alt="partner1">
-            <img src="" alt="partner2" class="ml-2">
-            <img src="" alt="partner3" class="ml-2">
+            <img src="" alt="partner2">
+            <img src="" alt="partner3">
           </div>
         </div>
       </div>
@@ -71,6 +72,25 @@ html {
 
 footer {
   flex: 0 0 auto;
+}
+
+.card-container {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text-container {
+  width: 100%;
+}
+
+@media screen and (max-width: 1025px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .text-container {
+    width: 50%;
+  }
 }
 
 </style>
