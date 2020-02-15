@@ -3,7 +3,7 @@
     <section class="container-fluid bg-dark text-white pt-4 content">
       <div class="container-fluid w-75 pt-4 pb-4">
         <div class="d-flex flex-row">
-          <h2 class="text-left text-uppercase">14-15 февраля</h2>
+          <h2 class="text-left text-uppercase">13-15 марта</h2>
           <h2 class="text-right text-uppercase ml-auto">175 000 рублей</h2>
         </div>
         <div class="banner">
@@ -23,7 +23,7 @@
         <div class="text-left text-container mt-5 pb-5">
           <ul>
             <li>Уникальный всероссийский Хакатон в направлении машинного обучения</li>
-            <li>Организатор хакатона, Университет ИТМО, и партнеры предлагают десять разных задач, связанных с машинным обучением</li>
+            <li>Организатор хакатона, Университет ИТМО, и партнеры предлагают шесть разных задач, связанных с машинным обучением</li>
             <li>Вместе мы хотим найти нестандартные технологические решения, познакомиться с новыми командами на этом рынке и за 48 часов разработать передовые инновационные технологии в области машинного обучения</li>
           </ul>
         </div>
@@ -181,19 +181,6 @@
             </template>
           </b-card>
         </b-card-group>
-        <div class="d-flex flex-row m-auto justify-content-center">
-          <b-card bg-variant="dark" text-variant="white" class="text-container text-left border-0 rounded-0 mt-4" footer-border-variant="white">
-            <b-card-text>
-              <h3 class="text-primary">Lie detector</h3>
-              Определить по голосу человека, врёт он или нет
-            </b-card-text>
-            <template v-slot:footer>
-              <router-link to="/task" class="text-white block-link text-center">
-                <div class="block-link">Узнать подробнее</div>
-              </router-link>
-            </template>
-          </b-card>
-        </div>
       </div>
     </section>
     <section class="container-fluid bg-dark text-white pt-5 pb-5" id="prize">
@@ -225,12 +212,6 @@
               </div>
               <div class="timing__stage m-auto d-flex flex-column text-left pl-2 pr-5">
                 <h5 class="text-uppercase">
-                  21-29 февраля 2020
-                </h5>
-                <span>Онлайн-тестирование участников</span>
-              </div>
-              <div class="timing__stage m-auto d-flex flex-column text-left pl-2 pr-5">
-                <h5 class="text-uppercase">
                   15 марта -<br /> 1 июня 2020
                 </h5>
                 <span>Акселлерация</span>
@@ -242,9 +223,9 @@
             <div class="d-flex flex-row m-auto">
               <div class="timing__stage m-auto ml-5 d-flex flex-column justify-content-end text-left pl-2 pr-2">
                 <h5 class="text-uppercase">
-                  20 февраля 2020
+                  28 февраля 2020
                 </h5>
-                <span>Окончание приёма заявок</span>
+                <span>Окончание приема заявок</span>
               </div>
               <div class="timing__stage m-auto d-flex flex-column justify-content-end text-left pl-2 pr-2">
                 <h5 class="text-uppercase">
@@ -273,7 +254,7 @@
           <div class="d-flex card-container justify-space-between mt-5">
             <div class="d-flex flex-column">
               <div class="jury__member">
-                <img src="https://placekitten.com/250/250" alt="Jury" class="rounded-circle">
+                <img src="../assets/frid.jpeg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
                   <h4 class="text-uppercase">Григорий Фридман</h4>
                   <span>Профессор Санкт-Петербургский государственный экономический университет, д.т.н., <br>стаж преподавания 21 год</span>
@@ -282,7 +263,7 @@
             </div>
             <div class="d-flex flex-column m-auto">
               <div class="jury__member">
-                <img src="https://placekitten.com/250/250" alt="Jury" class="rounded-circle">
+                <img src="../assets/Avdy.jpeg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
                   <h4 class="text-uppercase">Александр Авдюшенко</h4>
                   <span>Teacher at SPB <a href="https://compscicenter.ru/teachers/2607/">Computer Science Center</a>.</span>
@@ -291,7 +272,7 @@
             </div>
             <div class="d-flex flex-column m-auto">
               <div class="jury__member">
-                <img src="https://placekitten.com/250/250" alt="Jury" class="rounded-circle">
+                <img src="../assets/dav.jpg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
                   <h4 class="text-uppercase">Александр Давыденко</h4>
                   <span>Старший преподаватель кафедры космических технологий и <br>прикладной астродинамики в СПбГУ </span>
@@ -300,9 +281,9 @@
             </div>
             <div class="d-flex flex-column m-auto">
               <div class="jury__member">
-                <img src="https://placekitten.com/250/250" alt="Jury" class="rounded-circle">
+                <img src="../assets/Sero.jpeg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
-                  <h4 class="text-uppercase">Arseniy Seroka</h4>
+                  <h4 class="text-uppercase">Арсений Серока</h4>
                   <span>Chief Executive Officer, Co‑Founder of Serokell Labs</span>
                 </div>
               </div>
@@ -311,25 +292,25 @@
           <div class="d-flex card-container justify-space-between mt-5">
             <div class="d-flex flex-column m-auto">
               <div class="jury__member">
-                <img src="https://placekitten.com/250/250" alt="Jury" class="rounded-circle">
+                <img src="../assets/Tkachenko.jpg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
-                  <h4 class="text-uppercase">Grigory Tkachenko</h4>
+                  <h4 class="text-uppercase">Григорий Ткаченко</h4>
                   <span>VP of Engineering & Co-Founder - AI Factory</span>
                 </div>
               </div>
             </div>
             <div class="d-flex flex-column m-auto">
               <div class="jury__member">
-                <img src="https://placekitten.com/250/250" alt="Jury" class="rounded-circle">
+                <img src="../assets/Mike.jpg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
-                  <h4 class="text-uppercase">Mike Mirzayanov</h4>
+                  <h4 class="text-uppercase">Майк Мирзоянов</h4>
                   <span>CEO - Codeforces</span>
                 </div>
               </div>
             </div>
             <div class="d-flex flex-column m-auto">
               <div class="jury__member">
-                <img src="https://placekitten.com/250/250" alt="Jury" class="rounded-circle">
+                <img src="../assets/Galper.jpg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
                   <h4 class="text-uppercase">Даня Гальпер</h4>
                   <span>Founder and CEO of Grow Food</span>
@@ -404,20 +385,20 @@
     </section>
     <section class="container-fluid bg-dark text-white pt-4 pb-4" id="partners">
       <div class="container-fluid w-75">
-        <div class="d-flex flex-row">
+        <div class="d-flex flex-row ">
           <h2 class="text-right text-lg">Патрнёры</h2>
           <h2 class="mt-auto mb-auto ml-auto text-right text-primary">09</h2>
         </div>
-        <div class="d-flex card-container mt-5 pb-4">
+        <div class="d-flex card-container col-xs-12 mt-5 pb-4">
           <div class="d-flex flex-column partner m-auto">
             <img src="../assets/itmo.png" alt="" class="m-auto">
             <h3 class="pt-2">Университет ИТМО</h3>
           </div>
-          <div class="d-flex flex-column partner  m-auto">
+          <div class="d-flex flex-column partner col-xs-12  m-auto">
             <img src="../assets/botan.jpg" alt="" class="m-auto">
             <h3 class="pt-2">Ботан Инвестор</h3>
           </div>
-          <div class="d-flex flex-column partner  m-auto">
+          <div class="d-flex flex-column partner  clo-xs-12 m-auto">
             <img src="../assets/dg.png" alt="" class="m-auto">
             <h3 class="pt-2">Digital Generation</h3>
           </div>
@@ -436,6 +417,10 @@ export default {
 
 </script>
 <style>
+  .jury{
+    width: 250px;
+    height: 250px;
+  }
 .content {
   flex: 1 0 auto;
 }
