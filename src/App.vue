@@ -31,11 +31,6 @@
             <li>Телеграм-чат: <a href="tg://" class="text-primary">@mlhack</a></li>
             <li><a href="#" class="text-primary">Положение об участии в хакатоне</a></li>
           </ul>
-          <div class="d-flex card-container ml-auto mt-auto mb-auto">
-            <img src="" alt="partner1">
-            <img src="" alt="partner2">
-            <img src="" alt="partner3">
-          </div>
         </div>
       </div>
     </footer>
