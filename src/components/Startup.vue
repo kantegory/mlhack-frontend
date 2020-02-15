@@ -130,7 +130,7 @@ export default {
 
       let startupJSON = JSON.stringify(startup)
 
-      let url = 'http://127.0.0.1:8081/new_startup?data='
+      let url = 'http://194.67.91.81:8081/new_startup?data='
       url = url + startupJSON
 
       var xhr = new XMLHttpRequest()

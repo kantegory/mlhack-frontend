@@ -126,8 +126,32 @@ export default {
   data () {
     return {
       'tasks': [{
-        'name': 'name1',
-        'value': 'value1'
+        'name': 'Обработка голоса',
+        'value': '1'
+      },
+      {
+        'name': 'Sing like Pro',
+        'value': '2'
+      },
+      {
+        'name': 'Создать фото по заданной теме',
+        'value': '3'
+      },
+      {
+        'name': 'Traffic optimization',
+        'value': '4'
+      },
+      {
+        'name': 'TikTok for...',
+        'value': '5'
+      },
+      {
+        'name': 'Кальякулятор калорий',
+        'value': '6'
+      },
+      {
+        'name': 'Lie detector',
+        'value': '7'
       }],
 
       teamName: '',

@@ -3,45 +3,15 @@
     <div class="container-fluid w-75 text-black content mt-4">
       <div class="ml-auto text-right d-flex flex-column">
         <h2 class="text-lg">Задача № {{ taskNumber }}</h2>
-        <router-link to='/#tasks'>Смотреть остальные задачи</router-link>
       </div>
       <div class="task__heading mt-4">
-        <h2 class="text-left">{{ taskHeading }}</h2>
-        <div class="d-flex flex-row">
-          <span class="tag" :key="tag" v-for="tag in tags">{{ tag }}</span>
-        </div>
+        <!-- <h2 class="text-left">{{ taskHeading }}</h2> -->
+        <!-- <div class="d-flex flex-row"> -->
+          <!-- <span class="tag" :key="tag" v-for="tag in tags">{{ tag }}</span> -->
+        <!-- </div> -->
       </div>
-      <div class="d-flex flex-row mt-2">
-        <div class="d-flex flex-column w-50">
-          <p class="partner font-weight-bold text-left mt-4">О партнёре</p>
-          <div class="d-flex flex-column text-left">
-            {{ aboutPartner }}
-          </div>
-          <p class="partner font-weight-bold text-left mt-4">Задача</p>
-          <div class="d-flex flex-column text-left">
-            {{ aboutTask }}
-          </div>
-          <p class="partner font-weight-bold text-left mt-4">Приз</p>
-          <div class="d-flex flex-column text-left">
-            {{ prize }}
-          </div>
-        </div>
-        <div class="d-flex flex-column w-25 ml-auto">
-          <p class="partner font-weight-bold text-left mt-4">Менторы задачи</p>
-          <div class="d-flex flex-row">
-            <div :key="mentor" class="d-flex flex-column m-auto" v-for="mentor in mentors">
-              <img :src="mentor.image" alt="Mentor" class="rounded-circle">
-              <div class="mt-3">
-                <h4 class="text-uppercase">{{ mentor.name }}</h4>
-                <span>{{ mentor.desc }}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="mt-4">
-        <b-button size="lg" variant="outline-primary" class="text-uppercase">Подать заявку</b-button>
-        <b-button size="lg" variant="outline-primary" class="text-uppercase">Предложить готовое решение</b-button>
+      <div class="d-flex flex-row mt-5 justify-content-center">
+        <h2 class="text-center">Подробная информация появится первого марта.</h2>
       </div>
     </div>
   </div>
