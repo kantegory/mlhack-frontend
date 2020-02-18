@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="bg-dark">
-    <div class="container-fluid w-75 text-white text-left">
+    <div class="container-fluid container-w text-white text-left">
       <form @submit="newTeam" class="m-5 p-4 border border-white">
         <div class="form-group">
           <div class="d-flex flex-row">
@@ -249,3 +249,20 @@ export default {
 }
 
 </script>
+<style>
+  .text-container{
+    width: 50%!important;
+  }
+  .container-w{
+    width: 75%;
+  }
+  @media screen and (max-width: 500px) {
+    .text-container{
+      width: 100%!important;
+      margin-top: 10%;
+    }
+    .container-w{
+      width: 100%!important;
+    }
+  }
+</style>

@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="bg-dark text-white">
-    <div class="container-fluid w-75 text-left">
+    <div class="container-fluid container-w text-left">
       <form v-on:submit.prevent="newStartup" class="m-5 p-4 border border-white">
         <div class="d-flex flex-row">
           <h1 class="font-weight-bold">Анкета проекта</h1>
@@ -81,7 +81,21 @@
 .form-responsive {
   width: 50%;
 }
-
+.text-container{
+  width: 50%!important;
+}
+.container-w{
+  width: 75%;
+}
+@media screen and (max-width: 500px) {
+  .text-container{
+    width: 100%!important;
+    margin-top: 10%;
+  }
+  .container-w{
+    width: 100%!important;
+  }
+}
 @media screen and (max-width: 1025px) {
   .form-responsive {
     width: 100%;

@@ -4,7 +4,7 @@
       <div class="container-fluid w-75">
         <b-navbar-brand>
           <router-link to="/">
-            <img src="./assets/logo.png" class="logo" alt="Logo">
+            <img src="./assets/ML.svg" class="logo" alt="ML">
           </router-link>
         </b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

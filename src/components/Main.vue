@@ -7,7 +7,7 @@
           <h2 class="text-right text-uppercase ml-auto">175 000 рублей</h2>
         </div>
         <div class="banner">
-          <img src="../assets/banner_logo.png" alt="Banner logo" class="w-75 m-auto">
+          <img src="../assets/mlhack.svg" alt="mlhack" class="w-75 m-auto">
           <h2 class="ml-auto text-right text-uppercase">2020</h2>
         </div>
         <router-link to="/team" class="btn btn-lg btn-outline-primary text-uppercase mt-2">Подать заявку</router-link>
@@ -192,7 +192,7 @@
         <div class="text-center m-auto w-75">
           Команда, которая за 48 часов создаст лучшее решение по конкретной задаче, получит 100 000 рублей.
         </div>
-        <b-button size="lg" variant="outline-primary" class="text-uppercase mt-4">Подать заявку</b-button>
+        <router-link to="/team"> <b-button size="lg" variant="outline-primary" class="text-uppercase mt-4">Подать заявку</b-button></router-link>
       </div>
     </section>
     <section class="container-fluid bg-dark text-white pt-4" id="timing">
@@ -214,7 +214,7 @@
                 <h5 class="text-uppercase">
                   15 марта -<br /> 1 июня 2020
                 </h5>
-                <span>Акселлерация</span>
+                <span>Акселерация</span>
               </div>
             </div>
             <div class="timing__line">
@@ -248,7 +248,7 @@
       <div class="container-fluid w-75">
         <div class="d-flex flex-row">
           <h2 class="mt-auto mb-auto text-left text-primary">06</h2>
-          <h2 class="text-right ml-auto text-lg">Жюри</h2>
+          <h2 class="text-right ml-auto text-base">Жюри</h2>
         </div>
         <div class="container-fluid">
           <div class="d-flex card-container justify-space-between mt-5">
@@ -324,7 +324,7 @@
     <section class="container-fluid bg-dark text-white pt-4" id="program">
       <div class="container-fluid w-75">
         <div class="d-flex flex-row">
-          <h2 class="text-lg text-left">Программа</h2>
+          <h2 class="text-base text-left">Программа</h2>
           <h2 class="mt-auto mb-auto ml-auto text-right text-primary">07</h2>
         </div>
         <div class="d-flex card-container justify-content-start">
@@ -373,7 +373,7 @@
         <div class="d-flex flex-row">
           <h2 class="mt-auto mb-auto text-primary">08</h2>
           <div class="d-flex flex-column ml-auto">
-            <h2 class="text-lg text-right">Место</h2>
+            <h2 class="text-base text-right">Место</h2>
             <h3 class="text-uppercase text-right mt-2">Университет ИТМО</h3>
             <p class="text-right">Адрес: Биржевая линия, 16</p>
           </div>
@@ -386,7 +386,7 @@
     <section class="container-fluid bg-dark text-white pt-4 pb-4" id="partners">
       <div class="container-fluid w-75">
         <div class="d-flex flex-row ">
-          <h2 class="text-right text-lg">Патрнёры</h2>
+          <h2 class="text-right text-base">Патрнёры</h2>
           <h2 class="mt-auto mb-auto ml-auto text-right text-primary">09</h2>
         </div>
         <div class="d-flex card-container col-xs-12 mt-5 pb-4">
@@ -430,7 +430,7 @@ export default {
 }
 
 .text-lg {
-  font-size: 90px;
+  font-size: 6vw !important;
 }
 
 .card-body {
@@ -530,7 +530,7 @@ export default {
   }
 
   .text-lg {
-    font-size: 60px;
+    font-size: 50px !important;
   }
 
   .jury__member {
@@ -560,7 +560,7 @@ export default {
   }
 
   .text-lg {
-    font-size: 45px;
+    font-size: 40px !important;
   }
 
   h3 {
@@ -579,7 +579,7 @@ export default {
   }
 
   .text-lg {
-    font-size: 30px;
+    font-size: 25px !important;
   }
 
   .jury__member img {

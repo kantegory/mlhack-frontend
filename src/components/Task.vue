@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="container-fluid w-75 text-black content mt-4">
+    <div class="container-fluid text-black content mt-4">
       <div class="ml-auto text-right d-flex flex-column">
         <h2 class="text-lg">Задача № {{ taskNumber }}</h2>
       </div>
@@ -17,6 +17,7 @@
   </div>
 </template>
 <style>
+
 .content {
   min-height: 100vh;
 }
@@ -45,7 +46,21 @@
 .partner {
   font-size: 16pt;
 }
-
+.text-container{
+  width: 50%!important;
+}
+.container-w{
+  width: 75%;
+}
+@media screen and (max-width: 500px) {
+  .text-container{
+    width: 100%!important;
+    margin-top: 10%;
+  }
+  .container-w{
+    width: 100%!important;
+  }
+}
 </style>
 <script>
 export default {
