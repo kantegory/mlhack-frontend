@@ -11,8 +11,8 @@
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto">
             <b-nav-item href="/#format">Формат</b-nav-item>
-            <b-nav-item href="/#tasks">Задания</b-nav-item>
             <b-nav-item href="/#prize">Призовой фонд</b-nav-item>
+            <b-nav-item href="/#tasks">Задания</b-nav-item>
             <b-nav-item href="/#timing">Тайминг</b-nav-item>
             <b-nav-item href="/#jury">Жюри</b-nav-item>
             <b-nav-item href="/#program">Программа</b-nav-item>
@@ -27,9 +27,8 @@
       <div class="container-fluid w-75 pt-3 pb-3">
         <div class="d-flex flex-row">
           <ul class="list-unstyled text-left w-50 mb-auto mt-auto">
-            <li>Контакты: <a href="mailto:" class="text-primary">info@mail.com</a></li>
-            <li>Телеграм-чат: <a href="tg://" class="text-primary">@mlhack</a></li>
-            <li><a href="#" class="text-primary">Положение об участии в хакатоне</a></li>
+            <li>Контакты: <a href="mailto:" class="text-primary">infomlhack@gmail.com</a></li>
+            <li>Телеграм-чат: <a href="tg://" class="text-primary">@mlhackitmo</a></li>
           </ul>
         </div>
       </div>

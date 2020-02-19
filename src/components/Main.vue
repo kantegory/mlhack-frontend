@@ -17,15 +17,29 @@
     <section class="container-fluid bg-dark text-white pt-4" id="about">
       <div class="container-fluid w-75">
         <div class="d-flex flex-row">
-          <h2 class="text-left text-lg">Что такое HACK ML?</h2>
+          <h2 class="text-left text-lg">Что такое ML HACK?</h2>
           <h2 class="mt-auto mb-auto text-right ml-auto text-primary">01</h2>
         </div>
         <div class="text-left text-container mt-5 pb-5">
           <ul>
-            <li>Уникальный всероссийский Хакатон в направлении машинного обучения</li>
-            <li>Организатор хакатона, Университет ИТМО, и партнеры предлагают шесть разных задач, связанных с машинным обучением</li>
-            <li>Вместе мы хотим найти нестандартные технологические решения, познакомиться с новыми командами на этом рынке и за 48 часов разработать передовые инновационные технологии в области машинного обучения</li>
+            <li>Одно направление - машинное обучение</li>
+            <li>48 часов</li>
+            <li>6 задач</li>
+            <li>20 проектов</li>
+            <li>100 участников</li>
+            <li>175000 рублей</li>
           </ul>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid bg-dark text-white pt-5 pb-5" id="prize">
+      <div class="container-fluid w-75">
+        <div class="d-flex flex-row">
+          <h2 class="m-auto text-uppercase">Призовой фонд</h2>
+          <h2 class="m-auto text-lg text-primary font-weight-bold">175 000 ₽</h2>
+        </div>
+        <div class="text-center m-auto w-75">
+          Команды, предложившие самые интересные проекты, получат возможность полностью реализовать свой проект при финансовой и технической поддержке Botan Investments Общий размер финансирования проектов составляет около <b class="font-weight-bold">150000$</b>
         </div>
       </div>
     </section>
@@ -70,8 +84,9 @@
         <b-card-group deck>
           <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0 mt-4" footer-border-variant="white">
             <b-card-text>
-              <h3 class="text-primary">Обработка голоса</h3>
+              <h3 class="text-primary">Vioce processing</h3>
               <ul class="list-unstyled">
+                <ul>
                 <li>Исправление акцента. Добавить британский
                   акцент, убрать индийский акцент</li>
                 <li>Изменение голоса на голос другого
@@ -79,6 +94,7 @@
                 <li>Создать более уверенный голос. Убрать из
                   речи слова-паразиты, изменить тональность
                   голоса</li>
+                </ul>
               </ul>
             </b-card-text>
             <template v-slot:footer>
@@ -89,7 +105,7 @@
           </b-card>
           <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0 mt-4" footer-border-variant="white">
             <b-card-text>
-              <h3 class="text-primary">Sing like Pro</h3>
+              <h3 class="text-primary">Sing like a Pro</h3>
               Дотягивать концовки за пользователем. Накладывать ритм.
               Объединить со вторым профессиональным голосом и
               профессиональной аранжировкой
@@ -104,7 +120,7 @@
         <b-card-group deck>
           <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0 mt-4" footer-border-variant="white">
             <b-card-text>
-              <h3 class="text-primary">Создать фото по заданной теме</h3>
+              <h3 class="text-primary">Non-copyrighted images</h3>
               Создать non-copyrighted фото по заданной теме
               (“счастливая пара на пляже с пальмами”)
             </b-card-text>
@@ -140,6 +156,7 @@
             <b-card-text>
               <h3 class="text-primary">TikTok for...</h3>
               <ul class="list-unstyled">
+                <li>Используя алгоритм распространения контента в TikTok, разработать подобный в различных областях и сферах (dating, news, sport, etc.)</li>
                 <li>Dating
                   <ul>
                     <li>Пользователи создают различный контент (ответы на вопросы,
@@ -170,7 +187,7 @@
           </b-card>
           <b-card bg-variant="dark" text-variant="white" class="text-left border-0 rounded-0 mt-4" footer-border-variant="white">
             <b-card-text>
-              <h3 class="text-primary">Калькулятор калорий</h3>
+              <h3 class="text-primary">Calories Calculator</h3>
               Подсчитать, сколько калорий в еде с помощью
               картинки
             </b-card-text>
@@ -183,18 +200,7 @@
         </b-card-group>
       </div>
     </section>
-    <section class="container-fluid bg-dark text-white pt-5 pb-5" id="prize">
-      <div class="container-fluid w-75">
-        <div class="d-flex flex-row">
-          <h2 class="m-auto text-uppercase">Призовой фонд</h2>
-          <h2 class="m-auto text-lg text-primary font-weight-bold">175 000 ₽</h2>
-        </div>
-        <div class="text-center m-auto w-75">
-          Команда, которая за 48 часов создаст лучшее решение по конкретной задаче, получит 100 000 рублей.
-        </div>
-        <router-link to="/team"> <b-button size="lg" variant="outline-primary" class="text-uppercase mt-4">Подать заявку</b-button></router-link>
-      </div>
-    </section>
+
     <section class="container-fluid bg-dark text-white pt-4" id="timing">
       <div class="container-fluid w-75">
         <div class="d-flex flex-row">
@@ -206,7 +212,7 @@
             <div class="d-flex flex-row m-auto">
               <div class="timing__stage d-flex flex-column text-left pl-2 pr-5 m-auto">
                 <h5 class="text-uppercase">
-                  15 февраля 2020
+                  17 февраля 2020
                 </h5>
                 <span>Старт приёма заявок</span>
               </div>
@@ -223,13 +229,13 @@
             <div class="d-flex flex-row m-auto">
               <div class="timing__stage m-auto ml-5 d-flex flex-column justify-content-end text-left pl-2 pr-2">
                 <h5 class="text-uppercase">
-                  28 февраля 2020
+                  5 марта 2020
                 </h5>
                 <span>Окончание приема заявок</span>
               </div>
               <div class="timing__stage m-auto d-flex flex-column justify-content-end text-left pl-2 pr-2">
                 <h5 class="text-uppercase">
-                  1 марта 2020
+                  6 марта 2020
                 </h5>
                 <span>Результаты отбора</span>
               </div>
@@ -252,34 +258,36 @@
         </div>
         <div class="container-fluid">
           <div class="d-flex card-container justify-space-between mt-5">
-            <div class="d-flex flex-column">
+
+            <div class="d-flex flex-column m-1">
               <div class="jury__member">
-                <img src="../assets/frid.jpeg" alt="Jury" class="rounded-circle jury">
+                <img src="../assets/Mike.jpg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
-                  <h4 class="text-uppercase">Григорий Фридман</h4>
-                  <span>Профессор Санкт-Петербургский государственный экономический университет, д.т.н., <br>стаж преподавания 21 год</span>
+                  <h4 class="text-uppercase">Майк Мирзоянов</h4>
+                  <span>CEO - Codeforces</span>
                 </div>
               </div>
             </div>
-            <div class="d-flex flex-column m-auto">
+            <div class="d-flex flex-column m-1">
               <div class="jury__member">
-                <img src="../assets/Avdy.jpeg" alt="Jury" class="rounded-circle jury">
+                <img src="../assets/Tkachenko.jpg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
-                  <h4 class="text-uppercase">Александр Авдюшенко</h4>
-                  <span>Teacher at SPB <a href="https://compscicenter.ru/teachers/2607/">Computer Science Center</a>.</span>
+                  <h4 class="text-uppercase">Григорий Ткаченко</h4>
+                  <span>VP of Engineering & Co-Founder - AI Factory</span>
                 </div>
               </div>
             </div>
-            <div class="d-flex flex-column m-auto">
+            <div class="d-flex flex-column m-1">
               <div class="jury__member">
-                <img src="../assets/dav.jpg" alt="Jury" class="rounded-circle jury">
+                <img src="../assets/Galper.jpg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
-                  <h4 class="text-uppercase">Александр Давыденко</h4>
-                  <span>Старший преподаватель кафедры космических технологий и <br>прикладной астродинамики в СПбГУ </span>
+                  <h4 class="text-uppercase">Даня Гальпер</h4>
+                  <span>Founder and CEO of Grow Food</span>
                 </div>
               </div>
             </div>
-            <div class="d-flex flex-column m-auto">
+
+            <div class="d-flex flex-column m-1">
               <div class="jury__member">
                 <img src="../assets/Sero.jpeg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
@@ -290,30 +298,30 @@
             </div>
           </div>
           <div class="d-flex card-container justify-space-between mt-5">
-            <div class="d-flex flex-column m-auto">
+            <div class="d-flex flex-column">
               <div class="jury__member">
-                <img src="../assets/Tkachenko.jpg" alt="Jury" class="rounded-circle jury">
+                <img src="../assets/frid.jpeg" alt="Jury" class="rounded-circle jury m-1">
                 <div class="mt-3">
-                  <h4 class="text-uppercase">Григорий Ткаченко</h4>
-                  <span>VP of Engineering & Co-Founder - AI Factory</span>
+                  <h4 class="text-uppercase">Григорий Фридман</h4>
+                  <span>Профессор Санкт-Петербургский государственный экономический университет, д.т.н., <br>стаж преподавания 21 год</span>
                 </div>
               </div>
             </div>
-            <div class="d-flex flex-column m-auto">
+            <div class="d-flex flex-column m-1">
               <div class="jury__member">
-                <img src="../assets/Mike.jpg" alt="Jury" class="rounded-circle jury">
+                <img src="../assets/Avdy.jpeg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
-                  <h4 class="text-uppercase">Майк Мирзоянов</h4>
-                  <span>CEO - Codeforces</span>
+                  <h4 class="text-uppercase">Александр Авдюшенко</h4>
+                  <span>Teacher at SPB <a href="https://compscicenter.ru/teachers/2607/">Computer Science Center</a>.</span>
                 </div>
               </div>
             </div>
-            <div class="d-flex flex-column m-auto">
+            <div class="d-flex flex-column m-1">
               <div class="jury__member">
-                <img src="../assets/Galper.jpg" alt="Jury" class="rounded-circle jury">
+                <img src="../assets/dav.jpg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
-                  <h4 class="text-uppercase">Даня Гальпер</h4>
-                  <span>Founder and CEO of Grow Food</span>
+                  <h4 class="text-uppercase">Александр Давыденко</h4>
+                  <span>Старший преподаватель кафедры космических технологий и <br>прикладной астродинамики в СПбГУ </span>
                 </div>
               </div>
             </div>
@@ -396,10 +404,10 @@
           </div>
           <div class="d-flex flex-column partner col-xs-12  m-auto">
             <img src="../assets/botan.jpg" alt="" class="m-auto">
-            <h3 class="pt-2">Ботан Инвестор</h3>
+            <h3 class="pt-2">Botan Investments</h3>
           </div>
           <div class="d-flex flex-column partner  clo-xs-12 m-auto">
-            <img src="../assets/dg.png" alt="" class="m-auto">
+            <img src="../assets/dg.png" alt="" class="m-auto w-25">
             <h3 class="pt-2">Digital Generation</h3>
           </div>
         </div>
@@ -417,6 +425,13 @@ export default {
 
 </script>
 <style>
+  .w-25{
+    width: 280px!important;
+    height: 100px;
+  }
+  .m-1{
+    margin: 1%!important;
+  }
   .jury{
     width: 250px;
     height: 250px;

@@ -126,7 +126,7 @@ export default {
   data () {
     return {
       'tasks': [{
-        'name': 'Обработка голоса',
+        'name': 'Vioce processing',
         'value': '1'
       },
       {
@@ -134,7 +134,7 @@ export default {
         'value': '2'
       },
       {
-        'name': 'Создать фото по заданной теме',
+        'name': ' Non-copyrighted images',
         'value': '3'
       },
       {
@@ -146,12 +146,8 @@ export default {
         'value': '5'
       },
       {
-        'name': 'Кальякулятор калорий',
+        'name': 'Calories Calculator',
         'value': '6'
-      },
-      {
-        'name': 'Lie detector',
-        'value': '7'
       }],
 
       teamName: '',
