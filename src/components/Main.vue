@@ -289,7 +289,7 @@
 
             <div class="d-flex flex-column m-1">
               <div class="jury__member">
-                <img src="../assets/Sero.jpeg" alt="Jury" class="rounded-circle jury">
+                <img src="../assets/seroc.jpg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
                   <h4 class="text-uppercase">Арсений Серока</h4>
                   <span>Chief Executive Officer, Co‑Founder of Serokell Labs</span>
@@ -300,19 +300,19 @@
           <div class="d-flex card-container justify-space-between mt-5">
             <div class="d-flex flex-column">
               <div class="jury__member">
-                <img src="../assets/frid.jpeg" alt="Jury" class="rounded-circle jury m-1">
+                <img src="../assets/frid.jpg" alt="Jury" class="rounded-circle jury m-1">
                 <div class="mt-3">
                   <h4 class="text-uppercase">Григорий Фридман</h4>
-                  <span>Профессор Санкт-Петербургский государственный экономический университет, д.т.н., <br>стаж преподавания 21 год</span>
+                  <span>Доктор технических наук, профессор, преподаватель кружков по машинному обучению в СПбГЭУ. <br>стаж преподавания 21 год</span>
                 </div>
               </div>
             </div>
             <div class="d-flex flex-column m-1">
               <div class="jury__member">
-                <img src="../assets/Avdy.jpeg" alt="Jury" class="rounded-circle jury">
+                <img src="../assets/Avdyushenko.jpg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
                   <h4 class="text-uppercase">Александр Авдюшенко</h4>
-                  <span>Teacher at SPB <a href="https://compscicenter.ru/teachers/2607/">Computer Science Center</a>.</span>
+                  <span>Преподаватель в <a href="https://compscicenter.ru/teachers/2607/">Computer Science Center</a>, кандидат физико-математических наук, преподаватель кружков по машинному обучению в СПбГУ. .</span>
                 </div>
               </div>
             </div>
@@ -321,7 +321,7 @@
                 <img src="../assets/dav.jpg" alt="Jury" class="rounded-circle jury">
                 <div class="mt-3">
                   <h4 class="text-uppercase">Александр Давыденко</h4>
-                  <span>Старший преподаватель кафедры космических технологий и <br>прикладной астродинамики в СПбГУ </span>
+                  <span>Преподаватель, архитектор, преподаватель кружков по машинному обучению в СПбГУ. </span>
                 </div>
               </div>
             </div>
@@ -407,7 +407,7 @@
             <h3 class="pt-2">Botan Investments</h3>
           </div>
           <div class="d-flex flex-column partner  clo-xs-12 m-auto">
-            <img src="../assets/dg.png" alt="" class="m-auto w-25">
+            <img src="../assets/dg.png" alt="" class="m-auto w-25p">
             <h3 class="pt-2">Digital Generation</h3>
           </div>
         </div>
@@ -425,9 +425,9 @@ export default {
 
 </script>
 <style>
-  .w-25{
-    width: 280px!important;
-    height: 100px;
+  .w-25p{
+    width: 150px!important;
+    height: 150px;
   }
   .m-1{
     margin: 1%!important;
