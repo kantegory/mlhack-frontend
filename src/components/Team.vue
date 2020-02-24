@@ -72,20 +72,20 @@
           <div class="d-flex flex-column text-container p-4 border border-white ml-2">
             <h3 class="text-uppercase text-primary font-weight-bold">Участник</h3>
             <div class="form-group">
-              <label for="memberName3" class="label">Имя <span class="required-mark text-danger">*</span></label>
-              <input type="text" id="memberName3" v-model="members.memberName3" class="form-control bg-dark text-white" required placeholder="Имя...">
+              <label for="memberName3" class="label">Имя </label>
+              <input type="text" id="memberName3" v-model="members.memberName3" class="form-control bg-dark text-white" placeholder="Имя...">
             </div>
             <div class="form-group">
-              <label for="memberEmail3" class="label">E-mail <span class="required-mark text-danger">*</span></label>
-              <input type="email" id="memberEmail3" v-model="members.memberEmail3" class="form-control bg-dark text-white" required placeholder="E-mail...">
+              <label for="memberEmail3" class="label">E-mail </label>
+              <input type="email" id="memberEmail3" v-model="members.memberEmail3" class="form-control bg-dark text-white" placeholder="E-mail...">
             </div>
             <div class="form-group">
-              <label for="memberPhone3" class="label">Номер телефона <span class="required-mark text-danger">*</span> </label>
-              <input type="phone" id="memberPhone3" v-model="members.memberPhone3" class="form-control bg-dark text-white" required placeholder="Номер телефона...">
+              <label for="memberPhone3" class="label">Номер телефона </label>
+              <input type="phone" id="memberPhone3" v-model="members.memberPhone3" class="form-control bg-dark text-white" placeholder="Номер телефона...">
             </div>
             <div class="form-group">
-              <label for="memberAbout3" class="label">О себе <span class="required-mark text-danger">*</span></label>
-              <textarea type="text" id="memberAbout3" v-model="members.memberAbout3" class="form-control bg-dark text-white" required maxlength="300" placeholder="Ключевые навыки..."></textarea>
+              <label for="memberAbout3" class="label">О себе </label>
+              <textarea type="text" id="memberAbout3" v-model="members.memberAbout3" class="form-control bg-dark text-white" maxlength="300" placeholder="Ключевые навыки..."></textarea>
             </div>
           </div>
         </div>
@@ -126,28 +126,28 @@ export default {
   data () {
     return {
       'tasks': [{
-        'name': 'Vioce processing',
-        'value': '1'
+        'name': 'Voice processing',
+        'value': 'Voice processing'
       },
       {
         'name': 'Sing like Pro',
-        'value': '2'
+        'value': 'Sing like Pro'
       },
       {
-        'name': ' Non-copyrighted images',
-        'value': '3'
+        'name': 'Non-copyrighted images',
+        'value': 'Non-copyrighted images'
       },
       {
         'name': 'Traffic optimization',
-        'value': '4'
+        'value': 'Traffic optimization'
       },
       {
         'name': 'TikTok for...',
-        'value': '5'
+        'value': 'TikTok for...'
       },
       {
         'name': 'Calories Calculator',
-        'value': '6'
+        'value': 'Calories Calculator'
       }],
 
       teamName: '',
@@ -221,25 +221,20 @@ export default {
         captainPhone: ''
       }
 
-      this.members = [{
+      this.members = {
         memberName1: '',
         memberAbout1: '',
         memberEmail1: '',
-        memberPhone1: ''
-      },
-      {
+        memberPhone1: '',
         memberName2: '',
         memberAbout2: '',
         memberEmail2: '',
-        memberPhone2: ''
-      },
-      {
+        memberPhone2: '',
         memberName3: '',
         memberAbout3: '',
         memberEmail3: '',
         memberPhone3: ''
       }
-      ]
     }
   }
 }
